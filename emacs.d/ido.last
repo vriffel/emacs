@@ -1,0 +1,28 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/vriffel/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/vriffel/.emacs.d/"
+ "/home/vriffel/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "tmp.R"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/vriffel/.emacs.d/" (23960 58053 974060 484000) "./" "../" "network-security.data" "smex-items" "init.el~" "init.el" "lisp/" "elpa/" "auto-save-list/")
+
+ ("/home/vriffel/" (23960 58103 425710 549000) "./" "../" ".bash_logout" "Desktop/" ".ICEauthority" ".gnupg/" ".config/" "Documents/" ".cache/" "Videos/" "emacs/" ".sudo_as_admin_successful" ".gitconfig" ".ssh/" ".#tmp.R" ".emacs.d/" "Music/" "tmp.R~" ".mozilla/" "tmp.R" ".local/" ".bash_history" ".profile" ".bashrc" "Downloads/" "Public/" "Templates/" "R/" ".emacs~" "Pictures/" "examples.desktop")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
