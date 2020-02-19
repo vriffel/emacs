@@ -244,7 +244,7 @@ There are two things you can do about this warning:
         'ess-cycle-assign) ;; `Alt + -'  to cycle `<- | <<- | = ...'.
       ;;-------------------------------------
       (company-mode 1)                               ;; (company-mode -1)
-      (ess-smart-equals-mode 1)
+      (ess-smart-equals-mode -1)
       ;;-------------------------------------
       (define-key ess-mode-map [f5] 'company-R-args) ;; F5 do show ARGS.
       (setq-local comment-add 1)                     ;; Single ## as default.
@@ -271,24 +271,24 @@ There are two things you can do about this warning:
 ;; (ess-r-package-mode -1)
 ;; (setq ess-r-set-evaluation-env nil)
 
-;; Smart equals
-(use-package ess-smart-equals
-  :init   (setq ess-smart-equals-extra-ops '(brace paren percent))
-  :after  (:any ess-r-mode inferior-ess-r-mode ess-r-transcript-mode)
-  :config (ess-smart-equals-activate))
+;; ;; Smart equals
+;; (use-package ess-smart-equals
+;;   :init   (setq ess-smart-equals-extra-ops '(brace paren percent))
+;;   :after  (:any ess-r-mode inferior-ess-r-mode ess-r-transcript-mode)
+;;   :config (ess-smart-equals-activate))
 
-;; Smart Parens
-(use-package smartparens
-  :ensure nil
-  :diminish smartparens-mode
-  :config
-  (progn
-    (require 'smartparens-config)
-    (smartparens-global-mode 1)
-    (sp-pair "\"" nil :unless '(sp-point-after-word-p))
-    (sp-pair "'" nil :unless '(sp-point-after-word-p))
-    )
-  )
+;; ;; Smart Parens
+;; (use-package smartparens
+;;   :ensure nil
+;;   :diminish smartparens-mode
+;;   :config
+;;   (progn
+;;     (require 'smartparens-config)
+;;     (smartparens-global-mode 1)
+;;     (sp-pair "\"" nil :unless '(sp-point-after-word-p))
+;;     (sp-pair "'" nil :unless '(sp-point-after-word-p))
+;;     )
+;;   )
 
 ;;----------------------------------------------------------------------
 ;; Latex extensions.
