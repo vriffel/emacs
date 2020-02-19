@@ -247,7 +247,7 @@ There are two things you can do about this warning:
       (ess-smart-equals-mode 1)
       ;;-------------------------------------
       (define-key ess-mode-map [f5] 'company-R-args) ;; F5 do show ARGS.
-      (setq-local comment-add 0)                     ;; Single # as default.
+      (setq-local comment-add 1)                     ;; Single ## as default.
       (setq ess-smart-operators t)                   ;; Smart comma.
       ;; (setq ess-indent-with-fancy-comments nil)      ;; No indent levels.
       (setq ess-smart-equals-no-space t)
