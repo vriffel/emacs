@@ -182,6 +182,7 @@ There are two things you can do about this warning:
 
 ;;--------------------------------------------------------------------
 ;; Emacs Speaks Statistics
+(setq ess-indent-with-fancy-comments nil)
 (use-package ess
   :ensure nil
   ;; :ensure ess-site
@@ -204,7 +205,6 @@ There are two things you can do about this warning:
   ;; (global-set-key (kbd "C-S-<f9>") 'ess-noweb-goto-chunk)
   :config
   (setq-default ess-dialect "R")
-  (setq ess-indent-with-fancy-comments nil)
   (setq-default inferior-R-args "--no-restore-history --no-save ")
   (setq ess-view--spreadsheet-program "gnumeric")
   ;; Script and console font lock highlight.
