@@ -2,26 +2,295 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/vriffel/" . ".emacs.d/")
+ ("/home/vriffel/Git/IC/codes/RSS/simulacoes/sinape/" . "codigos/")
+ ("/home/vriffel/Git/IC/codes/RSS/simulacoes/" . "sinape/")
+ ("/home/vriffel/Git/IC/codes/RSS/" . "simulacoes/")
+ ("/home/vriffel/Git/ce071/modulos/" . "modulo1/")
+ ("/home/vriffel/Git/ce071/" . "modulos/")
+ ("/home/vriffel/Git/IC/talks/" . "04-02-2020/")
+ ("/home/vriffel/Git/estudos/" . "data.table/")
+ ("/home/vriffel/Git/IC/codes/" . "RSS/")
+ ("/home/vriffel/Git/emacs/" . "emacs.d/")
+ ("/home/vriffel/Git/IC/" . "codes/")
+ ("/home/vriffel/Git/DSBD/exames/questoes/" . "1 Computação científica e interação com o R/")
+ ("/home/vriffel/Git/DSBD/exames/" . "questoes/")
+ ("/home/vriffel/Git/DSBD/exames_estbas/questoes/" . "cap4/")
+ ("/home/vriffel/Git/DSBD/exames_estbas/" . "questoes/")
+ ("/home/vriffel/Git/DSBD/" . "exames_estbas/")
+ ("/home/vriffel/Git/" . "IC/")
+ ("/home/vriffel/DSBD/exames_estbas/questoes/" . "cap1/")
+ ("/home/vriffel/DSBD/exames/questoes/3 Indexação e seleção condicional/" . "3.1/")
+ ("/home/vriffel/DSBD/exames_estbas/" . "questoes/")
+ ("/home/vriffel/Dropbox/Vinicius/" . "Descritiva/")
+ ("/home/vriffel/Dropbox/" . "Vinicius/")
+ ("/home/vriffel/DSBD/exames/questoes/7 Probabilidade e variáveis aleatórias/" . "PROVA/")
+ ("/home/vriffel/Downloads/" . "data/")
+ ("/home/vriffel/LEA/Projetos/Projeto 3 - Olimpio/" . "Costa_PR/")
+ ("/home/vriffel/estudos/" . "data.table/")
+ ("/home/vriffel/LEA/Projetos/" . "Projeto 3 - Olimpio/")
+ ("/home/vriffel/LEA/" . "3_Olimpio/")
+ ("/home/vriffel/emacs/" . "emacs.d/")
+ ("/home/vriffel/DSBD/exames/questoes/6 Análise exploratória de dados/6.0/" . "6.3/")
+ ("/" . "home/")
+ ("/home/vriffel/DSBD/exames/questoes/6 Análise exploratória de dados/" . "PROVA/")
+ ("/home/vriffel/DSBD/exames/questoes/" . "6 Análise exploratória de dados/")
+ ("/home/vriffel/DSBD/exames/" . "questoes/")
+ ("/home/vriffel/DSBD/rday/" . "emails/")
+ ("/home/vriffel/DSBD/" . "exames_estbas/")
+ ("/home/" . "vriffel/")
+ ("/home/vriffel/ClickMetrics/" . "R/")
+ ("/home/vriffel/" . "Git/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/vriffel/Git/IC/codes/RSS/simulacoes/sinape/codigos/"
+ "/home/vriffel/Git/IC/codes/RSS/simulacoes/resultados/"
+ "/home/vriffel/Git/IC/codes/RSS/"
+ "/home/vriffel/Git/IC/codes/RSS/simulacoes/"
+ "/home/vriffel/Git/DSBD/exames_estbas/questoes/cap4/"
+ "/home/vriffel/Git/ce071/modulos/modulo1/"
+ "/home/vriffel/Git/DSBD/exames_estbas/"
+ "/home/vriffel/Git/DSBD/exames_estbas/questoes/cap3/"
+ "/home/vriffel/Git/DSBD/exames_estbas/questoes/cap1/"
+ "/home/vriffel/Git/DSBD/exames_estbas/questoes/cap2/"
  "/home/vriffel/.emacs.d/"
+ "/home/vriffel/Git/IC/talks/04-02-2020/"
  "/home/vriffel/"
+ "/home/vriffel/Git/estudos/data.table/"
+ "/home/vriffel/Dropbox/Vinicius/Descritiva/"
+ "/home/vriffel/Git/IC/codes/bench/"
+ "/home/vriffel/Git/DSBD/exames_estbas/questoes/xml/"
+ "/home/vriffel/Git/IC/codes/"
+ "/home/vriffel/Git/emacs/emacs.d/"
+ "/home/vriffel/Git/DSBD/exames_estbas/questoes/"
+ "/home/vriffel/Dropbox/Vinicius_Riffel (1)/codes/"
+ "/home/vriffel/Git/random-variables/"
+ "/home/vriffel/Git/DSBD/Livro/"
+ "/home/vriffel/Dropbox/Vinicius/Livro/"
+ "/home/vriffel/Downloads/"
+ "/home/vriffel/Git/DSBD/exames/questoes/1 Computação científica e interação com o R/"
+ "/home/vriffel/Git/Ryt/"
+ "/home/vriffel/Git/DSBD/"
+ "/home/vriffel/DSBD/exames/questoes/6 Análise exploratória de dados/PROVA/"
+ "/home/vriffel/DSBD/exames_estbas/questoes/"
+ "/home/vriffel/DSBD/exames_estbas/"
+ "/home/vriffel/DSBD/exames/questoes/6 Análise exploratória de dados/6.0/6.3/"
+ "/home/vriffel/DSBD/exames/questoes/3 Indexação e seleção condicional/3.1/"
+ "/home/vriffel/DSBD/exames/questoes/4 Entrada e saída de dados no R/"
+ "/home/vriffel/estudos/data.table/"
+ "/home/vriffel/Downloads/data/"
+ "/home/vriffel/estudos/"
+ "/home/vriffel/LEA/3_Olimpio/"
+ "/home/vriffel/Downloads/mayer/"
+ "/home/vriffel/Desktop/finalQuestao/"
+ "/home/vriffel/DSBD/exames/questoes/final/"
+ "/home/vriffel/DSBD/exames/questoes/7 Probabilidade e variáveis aleatórias/Discretas/"
+ "/home/vriffel/Dropbox/Vinicius/DevolutivaProfs2019/"
+ "/home/vriffel/DSBD/DevolutivaProfs2019/"
+ "/home/vriffel/DSBD/DevolutivaProfs/"
+ "/home/vriffel/DSBD/exames/questoes/8 Inferência estatística/"
+ "/home/vriffel/DSBD/exames/questoes/7 Probabilidade e variáveis aleatórias/PROVA/"
+ "/home/vriffel/LEA/Projetos/Projeto 3 - Olimpio/"
+ "/home/vriffel/DSBD/exames/questoes/7 Probabilidade e variáveis aleatórias/PROVA_MIADA/"
+ "/home/vriffel/DSBD/exames/questoes/6 Análise exploratória de dados/6.0/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "init.el"
- "tmp.R"
+ "simulacao_10.R"
+ "simulacao_03.R"
+ "simulacao_01.R"
+ "05_ts.R"
+ "01_simula.R"
+ "11_simulacao.R"
+ "04_compara.R"
+ "02_vero.R"
+ "simulacao_05.R"
+ "simulacao_06.R"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/vriffel/.emacs.d/" (23960 58053 974060 484000) "./" "../" "network-security.data" "smex-items" "init.el~" "init.el" "lisp/" "elpa/" "auto-save-list/")
+ ("/home/vriffel/Git/IC/codes/RSS/simulacoes/sinape/codigos/" (24175 25506 86928 714000) "simulacao_10.R" "simulacao_02.R" "simulacao_03.R" "./" "simulacao_07.R" "simulacao_13.R" "../" "simulacao_04.R" "simulacao_08.R" "simulacao_12.R" "simulacao_09.R" ".Rhistory" "simulacao_05.R" "simulacao_06.R" "simulacao_14.R" "simulacao_11.R" "simulacao_01.R")
 
- ("/home/vriffel/" (23960 58103 425710 549000) "./" "../" ".bash_logout" "Desktop/" ".ICEauthority" ".gnupg/" ".config/" "Documents/" ".cache/" "Videos/" "emacs/" ".sudo_as_admin_successful" ".gitconfig" ".ssh/" ".#tmp.R" ".emacs.d/" "Music/" "tmp.R~" ".mozilla/" "tmp.R" ".local/" ".bash_history" ".profile" ".bashrc" "Downloads/" "Public/" "Templates/" "R/" ".emacs~" "Pictures/" "examples.desktop")
+ ("/home/vriffel/Git/IC/codes/RSS/simulacoes/sinape/" (24175 25506 122928 817000) "codigos/" "./" "../" "brutos/" "convergencia/" ".Rhistory" "tratados/")
+
+ ("/home/vriffel/Git/IC/codes/RSS/simulacoes/" (24175 25502 594918 720000) "./" "../" "app.R" "sinape/")
+
+ ("/home/vriffel/Git/IC/codes/RSS/" (24175 25502 590918 709000) "simulacoes/" "06_distance.R" "08_aic.R" "05_ts.R" "07_analise_resultados.R" "./" "../" "01_simula.R" "02_vero.R" "review.Rmd" "04_compara.R" ".Rhistory" "03_esti.R")
+
+ ("/home/vriffel/Git/IC/codes/" (24175 25502 558918 618000) "lindley/" "./" "RSS/" "../" ".Rhistory" ".RData" "bench/")
+
+ ("/home/vriffel/Git/IC/" (24175 25506 186929 0) "par_zip_srs_n24" "par_zinb_srs_n24" "nbinom_n48_results" "par_geom_srs_n48" "aic_pois_srs_n24" "aic_geom_srs_n48" "pois_n6_merss3" "./" "par_geom_srs_n24" "par_nbinom_srs_n48" "../" "geom_n48_results" "zip_n24_results" "zip_n48_results" "pois_n48_results" "par_nbinom_srs_n24" "talks/" "aic_geom_srs_n24" "aic_zip_srs_n48" "par_pois_srs_n48" "par_zinb_srs_n48" "aic_zip_srs_n24" "zinb_n48_results" "par_pois_srs_n24" "aic_zinb_srs_n48" "aic_nbinom_srs_n48" ".git/" "geom_n24_results" "nbinom_n24_results" "aic_zinb_srs_n24" "aic_nbinom_srs_n24" "par_zip_srs_n48" "codes/" "pois_n6_merss" "pois_n6_merss2" "pois_n24_results" "aic_pois_srs_n48" "zinb_n24_results")
+
+ ("/home/vriffel/" (24175 25327 745956 878000) "iBagens/" ".ICEauthority" "teste2.pdf" ".Rprofile" "google-chrome-stable_current_amd64.deb" "backup/" ".dbus/" "snap/" "cache/" ".bash_logout" ".cache/" ".gvfs/" "Videos/" "bin/" "Downloads/" "playlist/" "teste.Rmd" "tmp.R" "Documents/" "Dropbox/" ".texlive2018/" ".bash_history" ".dropbox/" "tmp2.pdf" "tmp.tex" "tmp2.Rmd" "teste.Rnw" ".gnupg/" "tmp.aux" "Music/" "./" "finalQuestao/" "bc.R" ".ssh/" "teste.html" "lixo.txt" "Templates/" ".config/" "tmp.log" "../" "teste.pdf" "teste2.Rmd" ".emacs.d/" "#tmp.R#" "librarycd.code.tex" "arquivosFinal/" "Git/" ".profile" "nada.tex" "rnw2rmd.pl" "texput.log" "R/" "Desktop/" "examples.desktop" ".sudo_as_admin_successful" ".emacs~" ".gdal/" "a.R" ".pam_environment" ".dropbox-dist/" "texmf/" ".Rhistory" ".mozilla/" "funcs/" "Public/" ".pki/" ".gitconfig" "tmp.pdf" ".local/" ".bashrc" ".xinputrc" ".wget-hsts" "Pictures/" ".TinyTeX/")
+
+ ("/home/vriffel/Git/IC/codes/RSS/simulacoes/resultados/" (24171 58524 127342 759000) "zinb_n=6_resultados3" "pois_n6_resultados" "zinb_n=4_resultados3" "geom_n4_resultados" "nb_n=6_resultados" "zinb_n=6_resultados2" "zinb_n=6_resultados" "simulacao_10.R" "zip_n4_resultados" "pois_n6_resultados2" "GEOMN6" "simulacao_02.R" "simulacao_03.R" "ZIPN=6" "nb_n=4_resultados" "pois_n4_resultados3" "geom_n6_resultados2" "POISN4" "zip_n6_resultados" "nb_n=6_resultados2" "zip_n6_resultados2" "./" "nb_n=4_resultados3" "geom_n4_resultados2" "pois_n4_resultados" "simulacao_07.R" "nb_n=4_resultados2" "geom_n6_resultados3" "../" "simulacao_04.R" "pois_n6" "zinb_n=4_resultados2" "NB_N=4" "nb_n=6" "zinb_n4" "simulacao_08.R" "pois_n6_resultados3" "nb_n=6_resultados3" "ZIPN=4" "geom_n6_resultados" "simulacao_09.R" "zinb_n=4_resultados" "zip_n4_resultados2" "pois_n4_resultados2" "simulacao_05.R" "simulacao_06.R" ".#simulacao_02.R" "POISN=6" "zip_n6_resultados3" "zinb_n=6" "geom_n4_resultados3" "zip_n4_resultados3" "simulacao_01.R")
+
+ ("/home/vriffel/Downloads/" (24171 45652 385082 157000) "20200303133817355.pdf" "Costa_PR/" "./" "taconeli_bonat.r" "LinuxBasico.pdf" "../" "TMB.tar.xz" "mayer/" "status_documentos.ods.xlsx" "livros/")
+
+ ("/home/vriffel/.emacs.d/" (24171 57716 426414 780000) "init.el" "ido.last" "auto-save-list/" "init.el~" "./" "url/" "network-security.data" "../" "elpa/" "lisp/" "abbrev_defs")
+
+ ("/home/vriffel/Git/DSBD/exames_estbas/questoes/cap4/" (24170 15696 533673 134000) "questao2.Rmd" "questao3.Rmd" "questao9.Rmd" "quests_cap4.Rmd" "questao4.Rmd" "./" "questao12.Rmd" "questao15.Rmd" "../" "questao10.Rmd" "questao1.Rmd" "questao11.Rmd" "questao6.Rmd" "questao8.Rmd" "questao13.Rmd" "questao5.Rmd" "questao7.Rmd" "questao14.Rmd")
+
+ ("/home/vriffel/Dropbox/Vinicius/Livro/" (24159 43647 104422 880000) "RegPoisson.Rnw" "masterSINAPE.blg" "geo01.R" "modeloGeo.tex" "TODO" "bibMCIE.bib" "comment.cut" "mci.tex.tex" "Geral.R" "normalCens.R" "Exemplo-ar1.Rnw~" "bayes-bak.tex" "preRBRAS.tex" "bayesRegre.Rnw" "dlm-inla.Rnw" "clonePoisson.RData" "Exemplo5a.Rnw" "GAUSS1.RData" "mySweave.sty" "dados/" "cap00capa.tex" "cours_opt.pdf" "plot.dctable.R" "masterSINAPE.tex~" "PlanoLivroSINAPE.odt" "exemINLA2d.R" "perfil.phi.RData" "Exemplo-ar1.Rnw" "naoLinear-pontos.pdf" "Simplex.tex" "PPlik.tex" "Exemplo2.Rnw~" "masterRBRAS.lot" "generic.integral.R" "dlm-mle.Rnw" "masterSINAPE.pdf" "cap2.tex" "Beta.Rnw" "countgamma.Rnw" "cap-EfAlea.tex" "Exemplo4.tex" "ll.data" "RegSimplex.tex" "BetaJags.R" "Exemplo2.Rnw" "Exemplo-ar1.tex" "introducao.tex" "cap-Vero.tex" "PoissonAninhado.tex" "GAUSS2.RData" "exLaplace.R" "contorno.jpg" "dlm-mcmc.tex" "betaSlope.R" "masterSINAPE.tex" "final1.tex" "dlm-inla01.R" "PoissonAni.txt" "Rplots.pdf" "cap-Vero.tex~" "num_opti_likelihoods.pdf" "modeloINLA.R" "geoesta.R" "Poisson.tex" "INLA.tex" "naoLinear.tex" "bayes-pripost-bernbeta-hpdens2p.eps" "Exemplo7.tex" "TRI.Rnw" "PoissonIntercepto.tex" "perfil.bo.RData" "TRI.ajuste.RData" "amsel.csv" "referencia.bib" "RegPoisson.tex" "InterceptoPoisson.txt" "bayes-pripost-bernbeta-hpdens2p.pdf" "dlm-inla01.Rnw" "simplex.txt" "final.pdf" "PoissonAninhado.Rnw" "livro.tex" "poisson.R" "inla.model/" "Simplex.Rnw" "bayesRegre-bak.Rnw" "cap-Intro.tex" "Exemplo6.Rnw~" "bayesDois.tex" "pplik.R" "mciBAKBAK.tex" "bayes.tex" "cap-Reg.tex" "TEMP/" "cap-Intro.Rnw~" "Beta.R" "Exemplo3.tex" "Exemplo1.Rnw~" "exinla.tex" "bayes-pripost-bernbeta.tex" "dadosBeta1.txt" "countgamma.tex" "masterSINAPE.bbl" "PPlik.Rnw" "Exemplo7.Rnw" "bayes-pripost-bernbeta.Rnw" "TRI.tex" "masterSINAPE.toc" "BAK20180216/" "SimplexGauss/" "exinla.Rnw" "bayesRegre.tex" "perfil.sI.RData" "bayesAle.Rnw~" "masterSINAPE.log" "p3.Rnw~" "PoissonIntercepto.Rnw" "bayesDois.Rnw" "contorno.pdf" "perfilGeo.RData.bak" "res2" "RegSimplex.Rnw" "cap3.tex" "referenciaClassica.tex" "ll.tex" "dlm-inla.tex" "MCIE-RBRAS2012-v09.pdf" "PoissonAninhado.Rnw~" "perfil.rho.RData" "MCIE.pdf" "Rfigs/" "dadosBeta.txt" "TESALQmod.bst" "Exemplo1.Rnw" "masterRBRAS.tex" "dclone.Rnw" "MCIE-RBRAS2012.pdf" "PoissonIntercepto.Rnw~" "dclone-bak.Rnw" "contorno.eps" "svsing6.cls" "Exemplo2.tex" "referenciaBayesiana.tex" "perfil.sS.RData" "referencia.bib~" "bayesAle.tex" "Exemplo5.tex" "mci-bak.Rnw" "POISSON.txt" "dlm-mcmc.Rnw" "Marginal.tex" "mci.R" "perfil.b1.RData" "Exemplo5.Rnw~" "Exemplo5.Rnw" "bayesDois" "naoLinear.Rnw" "p3.Rnw" "Exemplo3.Rnw" "MCIE-2017-09-20.pdf" "cap-Intro.tex~" "MCIE-SINAPE-v12.pdf" "dclone.Rnw~" "scriptBN.R" "Exemplo4.Rnw~" "Exemplo3.Rnw~" "Poisson.Rnw" "naoLinear-llcont.pdf" "Beta.tex" "dlm-inla01.tex" "masterRBRAS.lol" "dclone.tex" "dlm-mle.tex" "IntNumerica.Rnw" "Exemplo6.Rnw" "MCIE-RBRAS2012-v08.pdf" "preSINAPE.tex" "masterSINAPE.aux" "IntNumerica.tex" "GAUSSrep.RData" "mapas/" "perfil.RData" "preSINAPE.tex~" "perfilGeo.RData" "Exemplo4.Rnw" "final1.Rnw" "mci.Rnw" "cap-Intro.Rnw" "mci.tex" "modGeofun.R" "bayesAle.Rnw" "Exemplo1.tex" "Exemplo2.tex~" "Exemplo6.tex" "PoisReg.R" "bayes-pripost-bernbeta-hpdens12.pdf" "../" "./")
+
+ ("/home/vriffel/Git/DSBD/exames_estbas/questoes/xml/" (24161 4240 122295 837000) "./" "prova2/" "../" "prova1/" "prova3/")
+
+ ("/home/vriffel/Git/IC/talks/04-02-2020/" (24162 45204 152081 749000) "slides.pdf" "thank_you.png" "slides.Rmd" "./" "../" ".Rhistory" "logo/")
+
+ ("/home/vriffel/Git/ce071/modulos/modulo1/" (24161 5856 274599 683000) "./" "Aula1.pdf" "../" "Aula1.R")
+
+ ("/home/vriffel/Git/ce071/modulos/" (24161 6583 33869 45000) "modulo1/" "./" "../" "modulo2/")
+
+ ("/home/vriffel/Git/ce071/" (24161 5797 582373 484000) "modulos/" "./" "../" ".git/")
+
+ ("/home/vriffel/Git/DSBD/exames_estbas/" (24161 4198 462073 228000) "questoes/" "myFuncs.R" ".myFuncs.R" "./" "../" ".funcsAux.R" "funcsAux.R" "perms.RDS" ".Rhistory")
+
+ ("/home/vriffel/Git/" (24161 5754 102211 826000) "emacs/" "./" "DSBD/" "random-variables/" "ce071/" "../" "ce086/" "estudos/" "LEA/" "Ryt/" "ytR/" "IC/" "ClickMetrics/")
+
+ ("/home/vriffel/Git/DSBD/exames_estbas/questoes/cap1/" (24159 38067 769510 893000) "Prova1.3.xml" "questao2.Rmd" "questao3.Rmd" "questao9.Rmd" "Prova1.1.xml" "questao4.Rmd" "./" "questao12.Rmd" "questao15.Rmd" "../" "questoes_cap1.Rmd" "questao10.Rmd" "gera.Rmd" "Prova1.2.xml" "questao1.Rmd" "questao11.Rmd" "copy.Rmd" "questao6.Rmd" "Prova1.4.xml" ".Rhistory" "questao8.Rmd" "questao13.Rmd" "questao5.Rmd" "Prova1.5.xml" "questao7.Rmd" "questao14.Rmd")
+
+ ("/home/vriffel/Git/DSBD/exames_estbas/questoes/cap2/" (24159 38023 17333 176000) "questao2.Rmd" "questoes_cap2.Rmd" "questao3.Rmd" "questao9.Rmd" "questao4.Rmd" "./" "questao12.Rmd" "questao15.Rmd" "../" "questao10.Rmd" "gera.Rmd" "questao1.Rmd" "questao11.Rmd" "questao6.Rmd" "questao8.Rmd" "questao13.Rmd" "questao5.Rmd" "questao7.Rmd" "questao14.Rmd")
+
+ ("/home/vriffel/Dropbox/Vinicius_Riffel (1)/codes/" (24158 34022 147744 882000) "lindley/" "./" "RSS/" "todo.Rmd" "../" "resultados_1" "sketch.R" "TMB/" ".Rhistory" ".RData" "bench/")
+
+ ("/home/vriffel/Dropbox/Vinicius/Descritiva/" (24153 32101 535871 512000) "grafico_nivel.jpg" "grafico_artigos.jpg" "grafico_grande_area.jpg" "dados.csv" "./" "grafico_area.jpg" "grafico_nivel_ingles.jpg" "../" "grafico_inscricoes.jpg" "dados_aprovados" "Descritiva.R" "dados_aprovados.csv" ".Rhistory" "grafico_cidade.jpg" "grafico_universidade.jpg")
+
+ ("/home/vriffel/Git/estudos/data.table/" (24157 19492 266828 789000) "join.R" "02.R" "MeganStodel_201907.pdf" "datavis03.R" "./" "datavis05.R" "../" "datavis04.R" "cheatsheet.png" "sabatina01.R" "01.R" "datavis02.R" ".Rhistory" "01_ex.R" "datavis06.R" "sabatina03.R" "sabatina02.R" "datavis01.R")
+
+ ("/home/vriffel/Git/DSBD/exames_estbas/questoes/cap3/" (24159 37237 630287 213000) "questao2.Rmd" "questao3.Rmd" "questao9.Rmd" "Prova3.4.xml" "questao4.Rmd" "./" "questao12.Rmd" "questao15.Rmd" "../" "Prova3.2.xml" "questao10.Rmd" "gera.Rmd" "questoes_cap3.Rmd" "questao1.Rmd" "questao11.Rmd" "questao6.Rmd" "questao8.Rmd" "Prova3.3.xml" "questao13.Rmd" "questao5.Rmd" "Prova3.5.xml" "questao7.Rmd" "questao14.Rmd")
+
+ ("/home/vriffel/Git/IC/talks/" (24157 20035 954495 775000) "04-02-2020/" "./" "../" "teste/")
+
+ ("/home/vriffel/Git/estudos/" (24083 11933 158869 68000) ".gitignore" "02-docum-codigo.pdf" "./" "../" "app.R" "network.R" "tidyverse/" "lattice/" "data.table/" "datavis/" ".git/" "SimulaçãoDistribuiçãoDEST.csv.zip")
+
+ ("/home/vriffel/Dropbox/" (24156 61136 545019 463000) ".dropbox.cache/" ".dropbox" "./" "../" "Vinicius_Riffel (1)/" "Vinicius/")
+
+ ("/home/vriffel/Dropbox/Vinicius/" (24152 5052 855682 250000) "cargahoraria.ods" "exames/" "DevolutivaProfs/" "entrevistas2.ods" "./" "rday/" "Bancas.ods" "Descritiva/" "Inference/" "../" "gera.Rmd" "todoVinicius.txt" "Cancer/" "Oferta de Disciplinas ( por Departamento e Docente )2019.2.pdf" "DevolutivaProfs2019/" "Ata/" "Livro/" "emails.ods" "graficos_auditoria/" "avaliacao2019/" "InfraComp_Pt.1+3_2019_Notas_completas(1).pdf" "entrevistas.ods" "cargahoraria.pdf" "todoVinicius.txt~" "freqEvento.ods" "status_documentos.ods" "Diplomas/" "Oferta de Disciplinas ( por Departamento e Docente )2019 Anual.pdf" "NotasInfraCORRETO.ods")
+
+ ("/home/vriffel/Git/IC/codes/bench/" (24151 61618 875037 769000) "results.RData" "results.R" "./" "../" "app.R" "bench.R")
+
+ ("/home/vriffel/Git/DSBD/exames_estbas/questoes/" (24151 47835 188268 208000) "cap2/" "cap3/" "tmp.R" "./" "../" "xml/" "cap4/" "cap1/" ".Rhistory")
+
+ ("/home/vriffel/Git/emacs/emacs.d/" (24141 17479 835731 149000) "init.el" "ido.last" "update-pacakges.el" "./" "install-packages.el" "../" "smex-items" "elpa/")
+
+ ("/home/vriffel/Git/emacs/" (24141 17180 629812 384000) "emacs.d/" "./" "../" ".git/")
+
+ ("/home/vriffel/Desktop/" (24129 48612 104954 745000) "index.png" "./" "../" "Shapefiles/" "entrevistas.ods" "corr.png")
+
+ ("/home/vriffel/Git/random-variables/" (24129 53048 437875 104000) ".gitignore" "./" "../" "app.R" "rsconnect/" ".git/")
+
+ ("/home/vriffel/Git/DSBD/gerais/" (23959 13042 95703 156000) "grafico4.jpg" "./" "../" "auditanalytics_lookingtowardfuturePG140.pdf" "graficos.R" "grafico3.jpg" "grafico2.jpg" "graficos.Rmd" "freqEvento.ods" "grafico1.jpg" "grafico5.jpg" "graficos.html")
+
+ ("/home/vriffel/Git/IC/artigos/" (24121 32336 27433 680000) "The discrete Lindley distribution properties and applications.pdf" "Lindley distribution and its applications.pdf" "artigos_iniciais/" "./" "../" "Estimators for a Poisson parameter using ranked set sampling.pdf" "Review of ranked set sampling.pdf")
+
+ ("/home/vriffel/Git/DSBD/Livro/" (24123 6272 88231 183000) "Exemplo1.Rmd" "Exemplo1.log" "./" "../" "tmp.Rmd" "Rfigs/" "Exemplo1.Rnw" "tmp.pdf" "Exemplo1.html" "Exemplo1.tex")
+
+ ("/home/vriffel/Git/DSBD/" (24121 31882 840225 309000) "init.el" "exames_estbas/" ".myFuncs.R" "data/" "gerais/" "exames/" "avaliacao.html" "precadastro/" "./" "rday/" "../" "tmp/" "Cancer/" "lattes/" "DevolutivaProfs2019/" "Livro/" "funcsAux.R" "legsemfundo.png" "quest/" "perms.RDS" "cesar/" "cancer/" ".git/" "avaliacao/" "atas/" "Cronograma2019.ods")
+
+ ("/home/vriffel/Git/Ryt/" (24113 53602 815918 943000) "./" "../" "DESCRIPTION" "LICENSE" ".git/")
+
+ ("/home/vriffel/Git/DSBD/exames/questoes/1 Computação científica e interação com o R/" (23959 13042 59703 114000) "questao 3.Rmd" "./" "questao 1.Rmd" "../" "Prova1.xml" "questao 2.Rmd" "gera.Rmd")
+
+ ("/home/vriffel/Git/DSBD/exames/questoes/" (24042 14780 689402 808000) "2 Objetos e Classes/" "3 Indexação e seleção condicional/" "6 Análise exploratória de dados/" "./" "../" "final/" "gera.Rmd" "8 Inferência estatística/" "questGenerica.Rmd" "7 Probabilidade e variáveis aleatórias/" "1 Computação científica e interação com o R/" "questeste/" "4 Entrada e saída de dados no R/")
+
+ ("/home/vriffel/Git/DSBD/exames/" (24092 38706 589129 800000) "questoes/" "myFuncs.R" "outros/" "./" "../" "funcsAux.R" "perms.RDS" "Exemplos/")
+
+ ("/home/vriffel/DSBD/exames_estbas/questoes/cap1/" (24096 39011 213531 842000) "./" "../" "questoes_cap1.Rmd" "copy.Rmd")
+
+ ("/home/vriffel/DSBD/exames_estbas/questoes/" (24096 36763 374391 508000) "./" "../" "cap1/" ".Rhistory")
+
+ ("/home/vriffel/DSBD/exames_estbas/" (24096 36877 246791 754000) "questoes/" "myFuncs.R" ".myFuncs.R" "./" "../" ".funcsAux.R" "funcsAux.R" "perms.RDS")
+
+ ("/home/vriffel/DSBD/exames/questoes/6 Análise exploratória de dados/PROVA/" (23986 460 917082 88000) "questao2.Rmd" "questao3.Rmd" "questao4.Rmd" "./" "Prova6.xml" "../" "gera.Rmd" "questao1.Rmd" "questionario.csv" "questao5.Rmd")
+
+ ("/home/vriffel/DSBD/exames/questoes/4 Entrada e saída de dados no R/" (24092 38920 286247 15000) "questao 3.Rmd" "./" "questao 1.Rmd" "../" "questao 2.Rmd" "gera.Rmd" "mydata.R" "prova3.rda" "prova3.RData" ".Rhistory" "gabarito.R" "areas.csv" "Prova4.xml" "questao 4.Rmd")
+
+ ("/home/vriffel/DSBD/exames/questoes/3 Indexação e seleção condicional/3.1/" (23959 13042 67703 123000) "questao 3.Rmd" "questao 5.Rmd" "Prova3.xml" "./" "questao 1.Rmd" "../" "questao 2.Rmd" "gera.Rmd" "questao 4.Rmd")
+
+ ("/home/vriffel/DSBD/exames/questoes/3 Indexação e seleção condicional/" (23959 13042 67703 123000) "3.1/" "./" "../" "3.2/")
+
+ ("/home/vriffel/DSBD/exames/" (24092 38706 589129 800000) "questoes/" "myFuncs.R" "outros/" "./" "../" "funcsAux.R" "perms.RDS" "Exemplos/")
+
+ ("/home/vriffel/DSBD/" (24092 38720 149202 354000) "init.el" "exames_estbas/" ".myFuncs.R" "gerais/" "exames/" "avaliacao.html" "precadastro/" "./" "rday/" "../" "tmp/" "Cancer/" "lattes/" "DevolutivaProfs2019/" "funcsAux.R" "legsemfundo.png" "quest/" "cesar/" "cancer/" ".git/" "avaliacao/" "atas/" "Cronograma2019.ods")
+
+ ("/home/vriffel/estudos/lattice/" (24083 11933 158869 68000) "./" "../" "01.R")
+
+ ("/home/vriffel/Downloads/data/" (24059 56388 720003 964000) "wire_data_analyse3.r" "all.pdf" "wire_data_analyse1.r" "all2.html" "wire_dataset2.csv" "all2.log" "gtw.r" "./" "wire_dataset3.csv" "../" "wire_dataset1" "wire_dataset3" "all2.tex" "wire_data_analyse2.r" "all2.Rmd" ".Rhistory" "all.Rmd" "tweedieregfunctions.r" "wire_dataset1.txt" "wire_dataset2")
+
+ ("/home/vriffel/estudos/data.table/" (24083 12145 79708 198000) "join.R" "02.R" "datavis03.R" "./" "datavis05.R" "../" "datavis04.R" "cheatsheet.png" "sabatina01.R" "01.R" "datavis02.R" ".Rhistory" "01_ex.R" "datavis06.R" "sabatina03.R" "sabatina02.R" "datavis01.R")
+
+ ("/home/vriffel/estudos/" (24083 11933 158869 68000) ".gitignore" "02-docum-codigo.pdf" "./" "../" "app.R" "network.R" "tidyverse/" "lattice/" "data.table/" "datavis/" ".git/" "SimulaçãoDistribuiçãoDEST.csv.zip")
+
+ ("/home/vriffel/LEA/3_Olimpio/" (24058 34265 768976 823000) "2_exploratoria.R" "functions.R" "MATRIZ_OLIMPIO_LEA_GERAL.xlsx" "5_eval.R" "Costa_PR/" "3_mapas.R" "mapa_costa_PR_1.shx" "./" "MATRIZ_OLIMPIO_LEA_GERAL.csv" "4_modelos.R" "mapa_costa_PR.shx" "../" "mapa_costa_PR.shp" "mapa_costa_PR_1.prj" "mapa_costa_PR.dbf" "polyarea.png" ".Rhistory" "Costa_PR.tar.xz" "mapa_costa_PR_1.dbf" "mapa_costa_PR_1.shp" "polyfinal.png" "script.R" "mapa_costa_PR.prj")
+
+ ("/home/vriffel/Downloads/Costa_PR/" (24049 19800 892595 853000) "./" "mapa_costa_PR.shx" "../" "mapa_costa_PR.shp" "mapa_costa_PR.dbf" "mapa_costa_PR.prj")
+
+ ("/home/vriffel/Desktop/finalQuestao/" (24047 50844 640464 268000) "prova1.Rmd" "prova3.Rmd" "prova1.log" "prova2.Rmd" "prova1.pdf" "prova5.Rmd" "prova1.odt" "./" "prova1.tex" "prova5.odt" "../" "prova4.pdf" "arquivosFinal/" "prova3.odt" "prova2.odt" "prova4.odt" "prova5.pdf" "prova2.pdf" "prova3.pdf" "prova5.html" "prova4.Rmd")
+
+ ("/home/vriffel/LEA/" (24055 27322 728590 647000) "2_Sandra/" "1_Ana/" "./" "../" "3_Olimpio/" ".git/")
+
+ ("/home/vriffel/Downloads/mayer/" (24049 19800 892595 853000) "2_exploratoria.R" "functions.R" "3_mapas.R" "./" "1_dados.R" "4_modelos.R" "mapa_costa_PR.shx" "../" "mapa_costa_PR.shp" "mapa_costa_PR.dbf" ".Rhistory" "mapa_costa_PR.prj" "dados_final.csv")
+
+ ("/home/vriffel/DSBD/exames/questoes/final/" (24046 33617 339922 52000) "prova1.Rmd" "prova3.Rmd" "prova2.Rmd" "a.html" "2.html" "3.Rmd" "prova5.Rmd" "5.Rmd" "prova2.html" "./" "salario.csv" "prova1.html" "../" "vetor.csv" "6.Rmd" "motor.csv" "2.Rmd" "a.Rmd" "temp.csv" "prova4.html" "4.Rmd" "prova5.html" "prova4.Rmd" "prova3.html")
+
+ ("/home/vriffel/DSBD/exames/questoes/" (24042 14780 689402 808000) "2 Objetos e Classes/" "3 Indexação e seleção condicional/" "6 Análise exploratória de dados/" "./" "../" "final/" "gera.Rmd" "8 Inferência estatística/" "questGenerica.Rmd" "7 Probabilidade e variáveis aleatórias/" "1 Computação científica e interação com o R/" "questeste/" "4 Entrada e saída de dados no R/")
+
+ ("/home/vriffel/DSBD/exames/questoes/8 Inferência estatística/" (24029 39836 550423 232000) "Prova8-q3.xml" "questao2.Rmd" "questao3.Rmd" "Prova8-q1.xml" "questao4.Rmd" "./" "../" "gera.Rmd" "questao1.Rmd" "Prova8-q5.xml" "Prova8-q2.xml" ".Rhistory" "gabarito.R" "Prova8_teste.xml" "questao5.Rmd" "Prova8-q4.xml")
+
+ ("/home/vriffel/DSBD/DevolutivaProfs2019/" (24039 49292 125533 555000) "02-2019.csv" "out_pb.csv" "analise.R" "out_ie.csv" "out_ic.csv" "out_me.csv" "./" "02-2018.csv" "Geral.ods" "LP.ods" "../" "PB.ods" "01-2019.csv" "IC.ods" "ME.ods" "out_ml.csv" "chart.png" "01-2018.csv" "ML.ods" "IE.ods" "out.csv" "out_lp.csv")
+
+ ("/home/vriffel/Dropbox/Vinicius/DevolutivaProfs2019/" (24039 56141 578613 963000) "02-2019.csv" "out_pb.csv" "analise.R" "out_ie.csv" "out_ic.csv" "out_me.csv" "./" "Geral.ods" "LP.ods" "../" "PB.ods" "01-2019.csv" "IC.ods" "ME.ods" "out_ml.csv" "chart.png" "ML.ods" "IE.ods" "out.csv" "out_lp.csv")
+
+ ("/home/vriffel/DSBD/quest/" (23959 13042 127703 192000) "cores para template" "./" "../" "ambiente_de_teste2/" "app.R" "legtemplate.css" "ambiente_de_testes/" "logolegsemfundo.png" "logoleg.jpg" "readME.R")
+
+ ("/home/vriffel/DSBD/DevolutivaProfs/" (24029 22230 737883 92000) "analise.R" "./" "Geral.ods" "LP.ods" "../" "PB.ods" "IC.ods" "ME.ods" "pesquisa-de-satistifacao-alu-v1-26-11-2019-10-48-46.zip" "exemplos/" "pesquisa-de-satistifacao-alu-v1-26-11-2019-10-48-46/" ".Rhistory" "pesquisa-de-satistifacao-alu-v1-26-11-2019-10-48-46.csv" "ML.ods" "IE.ods" "pesquisa-de-satistifacao-alu-v1-26-11-2019-09-36-04.csv")
+
+ ("/home/vriffel/DSBD/exames/questoes/7 Probabilidade e variáveis aleatórias/PROVA/" (24018 33349 877241 694000) "questao2.Rmd" "questao3.Rmd" "questao4.Rmd" "./" "Prova7_n5.xml" "../" "gera.Rmd" "questao1.Rmd" ".Rhistory" "gabarito.R" "questao5.Rmd")
+
+ ("/home/vriffel/LEA/Projetos/Projeto 3 - Olimpio/" (24013 16876 889081 285000) "2_exploratoria.R" "functions.R" "MATRIZ_OLIMPIO_LEA_GERAL.xlsx" "Costa_PR/" "3_mapas.R" "mapa_costa_PR_1.shx" "./" "MATRIZ_OLIMPIO_LEA_GERAL.csv" "4_modelos.R" "mapa_costa_PR.shx" "../" "mapa_costa_PR.shp" "mapa_costa_PR_1.prj" "mapa_costa_PR.dbf" "polyarea.png" ".Rhistory" "Costa_PR.tar.xz" "mapa_costa_PR_1.dbf" "mapa_costa_PR_1.shp" "polyfinal.png" "script.R" "mapa_costa_PR.prj")
+
+ ("/home/vriffel/LEA/Projetos/Projeto 3 - Olimpio/Costa_PR/" (24009 42292 639385 757000) "./" "mapa_costa_PR.shx" "../" "mapa_costa_PR.shp" "mapa_costa_PR.dbf" "mapa_costa_PR.prj")
+
+ ("/home/vriffel/DSBD/exames/questoes/7 Probabilidade e variáveis aleatórias/" (24009 18635 282800 741000) "Discretas/" "./" "../" "PROVA/" "Contínuas/" "PROVA_MIADA2/" "PROVA_MIADA/")
+
+ ("/home/vriffel/DSBD/exames/questoes/7 Probabilidade e variáveis aleatórias/Discretas/" (24002 55834 354343 778000) "questao 8.Rmd" "questao 5.Rmd" "./" "questao 9.Rmd" "../" "gera.Rmd" "questao 6.Rmd" "questao 7.Rmd" "gabarito.R")
+
+ ("/home/vriffel/DSBD/exames/questoes/6 Análise exploratória de dados/" (23985 54869 634434 311000) "6.0/" "./" "../" "6.2/" "PROVA/")
+
+ ("/home/vriffel/DSBD/exames/questoes/7 Probabilidade e variáveis aleatórias/PROVA_MIADA/" (24001 25256 795536 715000) "questao 8.Rmd" "questao 3.Rmd" "./" "../" "questao 2.Rmd" "gera.Rmd" "Prova7.xml" "questao 7.Rmd" "questao 4.Rmd")
+
+ ("/home/vriffel/DSBD/exames/questoes/6 Análise exploratória de dados/6.2/" (23985 54822 738224 749000) "./" "questao 1.Rmd" "../" "questao 2.Rmd")
+
+ ("/home/vriffel/DSBD/exames/questoes/6 Análise exploratória de dados/6.0/" (23985 54838 270293 984000) "questao2.Rmd" "./" "../" "6.3/")
+
+ ("/home/vriffel/DSBD/exames/questoes/6 Análise exploratória de dados/6.0/6.3/" (23985 61283 376340 448000) "./" "../" "questao 2.Rmd" ".Rhistory" "gabarito.R")
+
+ ("/home/vriffel/DSBD/exames/questoes/7 Probabilidade e variáveis aleatórias/Contínuas/" (24002 51602 913913 802000) "questao 3.Rmd" "./" "questao 1.Rmd" "../" "questao 2.Rmd" "gera.Rmd" ".Rhistory" "gabarito.R" "questao 10.Rmd" "questao 4.Rmd")
+
+ ("/home/vriffel/LEA/Projetos/" (23985 53010 537291 739000) "Projeto 1 - Ana/" "./" "../" "Projeto 3 - Olimpio/" "Projeto 2 - Sandra/")
+
+ ("/home/vriffel/estudos/datavis/" (23975 1074 442591 944000) "99-datasets.Rmd" ".gitignore" "02-vis-lattice.Rmd" "index.Rmd" "data/" "./" "scripts/" "../" "01-vis-graphics.Rmd" "_deploy.sh" "config/" "slides/" "03-vis-ggplot2.Rmd" "04-vis-interactive.Rmd" ".git/" "_build.sh" "_site.yml" "98-aval-ufv.Rmd")
+
+ ("/home/vriffel/ce086/" (23977 44514 328878 654000) "lista2.R" "./" "../" "app.R" "legtemplate.css" ".git/")
+
+ ("/home/vriffel/emacs/emacs.d/" (23976 22076 657362 427000) "init.el" "ido.last" "auto-save-list/" "./" "network-security.data" "../" "elpa/" "lisp/" "abbrev_defs")
+
+ ("/home/vriffel/emacs/" (23968 46110 93394 99000) "emacs.d/" "./" "../" ".git/" "dir/")
+
+ ("/home/vriffel/DSBD/exames/questoes/1 Computação científica e interação com o R/" (23959 13042 59703 114000) "questao 3.Rmd" "./" "questao 1.Rmd" "../" "Prova1.xml" "questao 2.Rmd" "gera.Rmd")
+
+ ("/home/vriffel/DSBD/rday/emails/" (23965 51532 968984 22000) "inscricao-processo-seletivo-v1-09-10-2019-08-14-41.zip" "ingles-1-v1-09-10-2019-08-14-41.csv" "formulario-para-inscricao-n-v1-09-10-2019-08-13-38.csv" "se-outros-por-favor-especifiq-2-v1-09-10-2019-08-14-11.csv" "cursos-marque-um-ou-mais-1-v1-09-10-2019-08-14-11.csv" "emails.R" "./" "../" "arquivo-pdf-2-v1-09-10-2019-08-14-41.csv" "readme.txt" "conhecimento-basico-de-lingua-1-v1-09-10-2019-08-15-48.csv" "inscricao-processo-seletivo-v1-09-10-2019-08-14-41.csv" "formulario-para-inscricao-n-v1-09-10-2019-08-13-38.zip" "conhecimento-ou-experiencia-e-2-v1-09-10-2019-08-15-48.csv" "r-day-inscricao-v1-09-10-2019-08-16-23.zip" "pre-cadastro-dsbd-v1-09-10-2019-08-15-48.zip" "i-encontro-de-data-science-b-v1-09-10-2019-08-14-11.zip" "r-day-inscricao-v1-09-10-2019-08-16-23.csv" "i-encontro-de-data-science-b-v1-09-10-2019-08-14-11.csv" "pre-cadastro-dsbd-v1-09-10-2019-08-15-48.csv")
+
+ ("/home/vriffel/DSBD/rday/" (23965 49229 147373 533000) "./" "../" "emails/")
+
+ ("/home/" (23958 970 119333 952000) "vriffel/" "./" "../")
+
+ ("/home/vriffel/ClickMetrics/R/" (23963 32169 251913 705000) "op_measurer.R" "./" "zzz_onAttach.R" "../" "diameter_measurer.R" ".Rhistory")
+
+ ("/home/vriffel/ClickMetrics/" (23963 8008 767582 807000) ".gitignore" ".Rbuildignore" "./" "../" "man/" "inst/" "DESCRIPTION" "LICENSE" "_deploy.sh" "R/" "NAMESPACE" "_pkgdown.yml" "build_pkg.R" "README.md" ".git/" ".travis.yml")
 )
 
 ;; ----- ido-unc-hosts-cache -----
