@@ -12,6 +12,8 @@
 ;; Load Fernando Mayer's functions (see https://github.com/fernadomayer)
 (load "~/.emacs.d/lisp/funcs.el")
 
+(setq byte-compile-warnings '(cl-functions))
+
 ;; Fix bug see https://emacs.stackexchange.com/questions/52171/trying-to-install-auctex-via-package-install
 (setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.3")
 
@@ -41,17 +43,19 @@
 (global-whitespace-mode +1)
 
 ;; Adds font
-(cond
- ((find-font (font-spec :name "Inconsolata"))
-  (set-default-font "Inconsolata-14"))
- ((find-font (font-spec :name "Noto Sans Mono"))
-  (set-default-font "Noto Sans Mono-14"))
- (t
-  (set-default-font "Ubuntu Mono-14")))
+;; (cond
+;;  ((find-font (font-spec :name "Inconsolata"))
+;;   (set-default-font "Inconsolata-14"))
+;;  ((find-font (font-spec :name "Noto Sans Mono"))
+;;   (set-default-font "Noto Sans Mono-14"))
+;;  (t
+;;   (set-default-font "Ubuntu Mono-14")))
 
-;; (set-default-font "Noto Sans Mono-14")
-;; (set-default-font "Inconsolata-14")
-(set-default-font "Ubuntu Mono-14")
+;; (set-default-font "Noto Sans Mono")
+;; (set-default-font "Inconsolata")
+;; (set-default-font "Ubuntu Mono-14")
+(set-frame-font "Inconsolata 12" nil t)
+
 
 ;; Adds IDO and smex
 (ido-mode t)
@@ -93,7 +97,7 @@ There are two things you can do about this warning:
   (when (< emacs-major-version 24)
     ;; For important compatibility libraries like cl-lib
     (add-to-list 'package-archives (cons "gnu" (concat proto "://elpa.gnu.org/packages/")))))
-(package-initialize)
+;; (package-initialize)
 
 ;; Use-package
 (unless (package-installed-p 'use-package)
@@ -109,10 +113,21 @@ There are two things you can do about this warning:
       company-minimum-prefix-length  2)
 
 ;; Load themes
-(require 'color-theme-sanityinc-tomorrow)
+;; (require 'color-theme-sanityinc-tomorrow)
+(use-package ample-theme
+  :init (progn (load-theme 'ample t t)
+               (load-theme 'ample-flat t t)
+               (load-theme 'ample-light t t)
+               (enable-theme 'ample-flat))
+  :defer t
+  :ensure t)
+
+
+
+
 
 ;;----------------------------------------------------------------------
-;; MarkDown extensions.
+;; Markdown extensions.
 ;; (IT MUST BE BEFORE LATEX EXTENSIONS.)
 
 ;; (when (not (package-installed-p 'markdown-mode))
@@ -316,18 +331,15 @@ There are two things you can do about this warning:
    [default bold shadow italic underline bold bold-italic bold])
  '(ansi-color-names-vector
    (vector "#eaeaea" "#d54e53" "#b9ca4a" "#e7c547" "#7aa6da" "#c397d8" "#70c0b1" "#000000"))
- '(custom-enabled-themes (quote (sanityinc-tomorrow-blue)))
+ '(custom-enabled-themes '(ample-flat))
  '(custom-safe-themes
-   (quote
-    ("82d2cac368ccdec2fcc7573f24c3f79654b78bf133096f9b40c20d97ec1d8016" "1b8d67b43ff1723960eb5e0cba512a2c7a2ad544ddb2533a90101fd1852b426e" "06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" default)))
+   '("82d2cac368ccdec2fcc7573f24c3f79654b78bf133096f9b40c20d97ec1d8016" "1b8d67b43ff1723960eb5e0cba512a2c7a2ad544ddb2533a90101fd1852b426e" "06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" default))
  '(fci-rule-color "#2a2a2a")
  '(package-selected-packages
-   (quote
-    (yaml-mode poly-R poly-markdown polymode markdown-mode imenu-list smex color-theme-sanityinc-tomorrow auctex smartparens company ess-view ess-smart-underscore ess-smart-equals ess)))
+   '(ample-zen-theme yaml-mode poly-R poly-markdown polymode markdown-mode imenu-list smex color-theme-sanityinc-tomorrow auctex smartparens company ess-view ess-smart-underscore ess-smart-equals ess))
  '(vc-annotate-background nil)
  '(vc-annotate-color-map
-   (quote
-    ((20 . "#d54e53")
+   '((20 . "#d54e53")
      (40 . "#e78c45")
      (60 . "#e7c547")
      (80 . "#b9ca4a")
@@ -344,7 +356,7 @@ There are two things you can do about this warning:
      (300 . "#d54e53")
      (320 . "#e78c45")
      (340 . "#e7c547")
-     (360 . "#b9ca4a"))))
+     (360 . "#b9ca4a")))
  '(vc-annotate-very-old-color nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -395,17 +407,17 @@ There are two things you can do about this warning:
 (global-whitespace-mode +1)
 
 ;; Adds font
-(cond
- ((find-font (font-spec :name "Inconsolata"))
-  (set-default-font "Inconsolata-14"))
- ((find-font (font-spec :name "Noto Sans Mono"))
-  (set-default-font "Noto Sans Mono-14"))
- (t
-  (set-default-font "Ubuntu Mono-14")))
+;; (cond
+;;  ((find-font (font-spec :name "Inconsolata"))
+;;   (set-default-font "Inconsolata-14"))
+;;  ((find-font (font-spec :name "Noto Sans Mono"))
+;;   (set-default-font "Noto Sans Mono-14"))
+;;  (t
+;;   (set-default-font "Ubuntu Mono-14")))
 
 ;; (set-default-font "Noto Sans Mono-14")
 ;; (set-default-font "Inconsolata-14")
-(set-default-font "Ubuntu Mono-14")
+;; (set-default-font "Ubuntu Mono-14")
 
 ;; Adds IDO and smex
 (ido-mode t)
@@ -428,7 +440,7 @@ There are two things you can do about this warning:
   (add-to-list 'package-archives
                '("melpa" . "http://melpa.org/packages/") t))
 
-(package-initialize)
+;; (package-initialize)
 
 (require 'package)
 (let* ((no-ssl (and (memq system-type '(windows-nt ms-dos))
@@ -447,7 +459,7 @@ There are two things you can do about this warning:
   (when (< emacs-major-version 24)
     ;; For important compatibility libraries like cl-lib
     (add-to-list 'package-archives (cons "gnu" (concat proto "://elpa.gnu.org/packages/")))))
-(package-initialize)
+;; (package-initialize)
 
 ;; Use-package
 (unless (package-installed-p 'use-package)
@@ -461,9 +473,6 @@ There are two things you can do about this warning:
 ;; Set some configs to company
 (setq company-idle-delay             0.2
       company-minimum-prefix-length  2)
-
-;; Load themes
-(require 'color-theme-sanityinc-tomorrow)
 
 ;;----------------------------------------------------------------------
 ;; MarkDown extensions.
@@ -659,48 +668,5 @@ There are two things you can do about this warning:
   (add-hook 'LaTeX-mode-hook 'turn-on-reftex)
   )
 
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(ansi-color-faces-vector
-   [default bold shadow italic underline bold bold-italic bold])
- '(ansi-color-names-vector
-   (vector "#eaeaea" "#d54e53" "#b9ca4a" "#e7c547" "#7aa6da" "#c397d8" "#70c0b1" "#000000"))
- '(custom-enabled-themes (quote (sanityinc-tomorrow-blue)))
- '(custom-safe-themes
-   (quote
-    ("82d2cac368ccdec2fcc7573f24c3f79654b78bf133096f9b40c20d97ec1d8016" "1b8d67b43ff1723960eb5e0cba512a2c7a2ad544ddb2533a90101fd1852b426e" "06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" default)))
- '(fci-rule-color "#2a2a2a")
- '(package-selected-packages
-   (quote
-    (yaml-mode poly-R poly-markdown polymode markdown-mode imenu-list smex color-theme-sanityinc-tomorrow auctex smartparens company ess-view ess-smart-underscore ess-smart-equals ess)))
- '(vc-annotate-background nil)
- '(vc-annotate-color-map
-   (quote
-    ((20 . "#d54e53")
-     (40 . "#e78c45")
-     (60 . "#e7c547")
-     (80 . "#b9ca4a")
-     (100 . "#70c0b1")
-     (120 . "#7aa6da")
-     (140 . "#c397d8")
-     (160 . "#d54e53")
-     (180 . "#e78c45")
-     (200 . "#e7c547")
-     (220 . "#b9ca4a")
-     (240 . "#70c0b1")
-     (260 . "#7aa6da")
-     (280 . "#c397d8")
-     (300 . "#d54e53")
-     (320 . "#e78c45")
-     (340 . "#e7c547")
-     (360 . "#b9ca4a"))))
- '(vc-annotate-very-old-color nil))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
+
+

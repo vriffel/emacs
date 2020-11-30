@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/vriffel/Git/IC2/" . "codes/")
  ("/home/vriffel/Git/IC/codes/RSS/simulacoes/sinape/" . "codigos/")
  ("/home/vriffel/Git/IC/codes/RSS/simulacoes/" . "sinape/")
  ("/home/vriffel/Git/IC/codes/RSS/" . "simulacoes/")
@@ -17,7 +18,7 @@
  ("/home/vriffel/Git/DSBD/exames_estbas/questoes/" . "cap4/")
  ("/home/vriffel/Git/DSBD/exames_estbas/" . "questoes/")
  ("/home/vriffel/Git/DSBD/" . "exames_estbas/")
- ("/home/vriffel/Git/" . "IC/")
+ ("/home/vriffel/Git/" . "IC2/")
  ("/home/vriffel/DSBD/exames_estbas/questoes/" . "cap1/")
  ("/home/vriffel/DSBD/exames/questoes/3 Indexação e seleção condicional/" . "3.1/")
  ("/home/vriffel/DSBD/exames_estbas/" . "questoes/")
@@ -44,6 +45,9 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/vriffel/Git/IC2/codes/"
+ "/home/vriffel/"
+ "/home/vriffel/.emacs.d/"
  "/home/vriffel/Git/IC/codes/RSS/simulacoes/sinape/codigos/"
  "/home/vriffel/Git/IC/codes/RSS/simulacoes/resultados/"
  "/home/vriffel/Git/IC/codes/RSS/"
@@ -54,9 +58,7 @@
  "/home/vriffel/Git/DSBD/exames_estbas/questoes/cap3/"
  "/home/vriffel/Git/DSBD/exames_estbas/questoes/cap1/"
  "/home/vriffel/Git/DSBD/exames_estbas/questoes/cap2/"
- "/home/vriffel/.emacs.d/"
  "/home/vriffel/Git/IC/talks/04-02-2020/"
- "/home/vriffel/"
  "/home/vriffel/Git/estudos/data.table/"
  "/home/vriffel/Dropbox/Vinicius/Descritiva/"
  "/home/vriffel/Git/IC/codes/bench/"
@@ -93,25 +95,38 @@
  "/home/vriffel/DSBD/exames/questoes/7 Probabilidade e variáveis aleatórias/PROVA/"
  "/home/vriffel/LEA/Projetos/Projeto 3 - Olimpio/"
  "/home/vriffel/DSBD/exames/questoes/7 Probabilidade e variáveis aleatórias/PROVA_MIADA/"
- "/home/vriffel/DSBD/exames/questoes/6 Análise exploratória de dados/6.0/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "tmp.Rmd"
+ "02_modelos.R"
+ "prova2.R"
+ "lista4.R"
+ "video.R"
+ "01_vero.R"
+ "init.el"
+ "tmp.R"
+ "a.R"
  "simulacao_10.R"
- "simulacao_03.R"
- "simulacao_01.R"
- "05_ts.R"
- "01_simula.R"
- "11_simulacao.R"
- "04_compara.R"
- "02_vero.R"
- "simulacao_05.R"
- "simulacao_06.R"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/vriffel/Git/IC2/codes/" (24517 21265 587814 680000) "./" ".#02_modelos.R" "tmp.R" ".Rhistory" "../" "bohnwolfe.pdf" "03_exemplos.R" "02_modelos.R" "bohnwolfe.Rmd" "01_vero.R")
+
+ ("/home/vriffel/Git/" (24515 55739 652223 520000) "IC2/" "./" "emacs/" "humani/" "../" "IC/" "package/" "2020-11-27 22-10-22.mkv" "2020-11-27 23-09-59.mkv")
+
+ ("/home/vriffel/" (24517 15478 876874 814000) "Dropbox/" "Videos/" "Git/" ".pki/" "mnt/" "./" "Downloads/" ".profile" ".xsession-errors.old" ".dmrc" "lista4.R" ".config/" ".Xauthority" "Pictures/" ".gnupg/" ".dropbox/" ".wget-hsts" ".dropbox-dist/" "Music/" ".mozilla/" ".Rhistory" ".bashrc" "Public/" "../" "Desktop/" "Templates/" ".bash_logout" ".ICEauthority" ".emacs.d/" "Documents/" "R/" ".bash_history" "prova2.R" ".xfce4-session.verbose-log" ".local/" ".cache/" ".xsession-errors" ".gitconfig")
+
+ ("/home/vriffel/Videos/" (24509 19687 215999 628000) "./" "../")
+
+ ("/home/vriffel/.emacs.d/" (24512 15544 857854 691000) "elpa/" "./" "ido.last" "auto-save-list/" "init.el" "abbrev_defs" "../" "lisp/")
+
+ ("/home/vriffel/Git/IC2/" (24509 22466 27652 915000) ".git/" "./" "codes/" "../")
+
+ ("/home/vriffel/Git/IC/" (24509 22823 27442 448000) ".git/" "./" "paper/" "codes/" "tmp.R" ".Rhistory" "../" "talks/" "tmp.Rmd")
+
  ("/home/vriffel/Git/IC/codes/RSS/simulacoes/sinape/codigos/" (24175 25506 86928 714000) "simulacao_10.R" "simulacao_02.R" "simulacao_03.R" "./" "simulacao_07.R" "simulacao_13.R" "../" "simulacao_04.R" "simulacao_08.R" "simulacao_12.R" "simulacao_09.R" ".Rhistory" "simulacao_05.R" "simulacao_06.R" "simulacao_14.R" "simulacao_11.R" "simulacao_01.R")
 
  ("/home/vriffel/Git/IC/codes/RSS/simulacoes/sinape/" (24175 25506 122928 817000) "codigos/" "./" "../" "brutos/" "convergencia/" ".Rhistory" "tratados/")
@@ -122,15 +137,9 @@
 
  ("/home/vriffel/Git/IC/codes/" (24175 25502 558918 618000) "lindley/" "./" "RSS/" "../" ".Rhistory" ".RData" "bench/")
 
- ("/home/vriffel/Git/IC/" (24175 25506 186929 0) "par_zip_srs_n24" "par_zinb_srs_n24" "nbinom_n48_results" "par_geom_srs_n48" "aic_pois_srs_n24" "aic_geom_srs_n48" "pois_n6_merss3" "./" "par_geom_srs_n24" "par_nbinom_srs_n48" "../" "geom_n48_results" "zip_n24_results" "zip_n48_results" "pois_n48_results" "par_nbinom_srs_n24" "talks/" "aic_geom_srs_n24" "aic_zip_srs_n48" "par_pois_srs_n48" "par_zinb_srs_n48" "aic_zip_srs_n24" "zinb_n48_results" "par_pois_srs_n24" "aic_zinb_srs_n48" "aic_nbinom_srs_n48" ".git/" "geom_n24_results" "nbinom_n24_results" "aic_zinb_srs_n24" "aic_nbinom_srs_n24" "par_zip_srs_n48" "codes/" "pois_n6_merss" "pois_n6_merss2" "pois_n24_results" "aic_pois_srs_n48" "zinb_n24_results")
-
- ("/home/vriffel/" (24175 25327 745956 878000) "iBagens/" ".ICEauthority" "teste2.pdf" ".Rprofile" "google-chrome-stable_current_amd64.deb" "backup/" ".dbus/" "snap/" "cache/" ".bash_logout" ".cache/" ".gvfs/" "Videos/" "bin/" "Downloads/" "playlist/" "teste.Rmd" "tmp.R" "Documents/" "Dropbox/" ".texlive2018/" ".bash_history" ".dropbox/" "tmp2.pdf" "tmp.tex" "tmp2.Rmd" "teste.Rnw" ".gnupg/" "tmp.aux" "Music/" "./" "finalQuestao/" "bc.R" ".ssh/" "teste.html" "lixo.txt" "Templates/" ".config/" "tmp.log" "../" "teste.pdf" "teste2.Rmd" ".emacs.d/" "#tmp.R#" "librarycd.code.tex" "arquivosFinal/" "Git/" ".profile" "nada.tex" "rnw2rmd.pl" "texput.log" "R/" "Desktop/" "examples.desktop" ".sudo_as_admin_successful" ".emacs~" ".gdal/" "a.R" ".pam_environment" ".dropbox-dist/" "texmf/" ".Rhistory" ".mozilla/" "funcs/" "Public/" ".pki/" ".gitconfig" "tmp.pdf" ".local/" ".bashrc" ".xinputrc" ".wget-hsts" "Pictures/" ".TinyTeX/")
-
  ("/home/vriffel/Git/IC/codes/RSS/simulacoes/resultados/" (24171 58524 127342 759000) "zinb_n=6_resultados3" "pois_n6_resultados" "zinb_n=4_resultados3" "geom_n4_resultados" "nb_n=6_resultados" "zinb_n=6_resultados2" "zinb_n=6_resultados" "simulacao_10.R" "zip_n4_resultados" "pois_n6_resultados2" "GEOMN6" "simulacao_02.R" "simulacao_03.R" "ZIPN=6" "nb_n=4_resultados" "pois_n4_resultados3" "geom_n6_resultados2" "POISN4" "zip_n6_resultados" "nb_n=6_resultados2" "zip_n6_resultados2" "./" "nb_n=4_resultados3" "geom_n4_resultados2" "pois_n4_resultados" "simulacao_07.R" "nb_n=4_resultados2" "geom_n6_resultados3" "../" "simulacao_04.R" "pois_n6" "zinb_n=4_resultados2" "NB_N=4" "nb_n=6" "zinb_n4" "simulacao_08.R" "pois_n6_resultados3" "nb_n=6_resultados3" "ZIPN=4" "geom_n6_resultados" "simulacao_09.R" "zinb_n=4_resultados" "zip_n4_resultados2" "pois_n4_resultados2" "simulacao_05.R" "simulacao_06.R" ".#simulacao_02.R" "POISN=6" "zip_n6_resultados3" "zinb_n=6" "geom_n4_resultados3" "zip_n4_resultados3" "simulacao_01.R")
 
  ("/home/vriffel/Downloads/" (24171 45652 385082 157000) "20200303133817355.pdf" "Costa_PR/" "./" "taconeli_bonat.r" "LinuxBasico.pdf" "../" "TMB.tar.xz" "mayer/" "status_documentos.ods.xlsx" "livros/")
-
- ("/home/vriffel/.emacs.d/" (24171 57716 426414 780000) "init.el" "ido.last" "auto-save-list/" "init.el~" "./" "url/" "network-security.data" "../" "elpa/" "lisp/" "abbrev_defs")
 
  ("/home/vriffel/Git/DSBD/exames_estbas/questoes/cap4/" (24170 15696 533673 134000) "questao2.Rmd" "questao3.Rmd" "questao9.Rmd" "quests_cap4.Rmd" "questao4.Rmd" "./" "questao12.Rmd" "questao15.Rmd" "../" "questao10.Rmd" "questao1.Rmd" "questao11.Rmd" "questao6.Rmd" "questao8.Rmd" "questao13.Rmd" "questao5.Rmd" "questao7.Rmd" "questao14.Rmd")
 
@@ -147,8 +156,6 @@
  ("/home/vriffel/Git/ce071/" (24161 5797 582373 484000) "modulos/" "./" "../" ".git/")
 
  ("/home/vriffel/Git/DSBD/exames_estbas/" (24161 4198 462073 228000) "questoes/" "myFuncs.R" ".myFuncs.R" "./" "../" ".funcsAux.R" "funcsAux.R" "perms.RDS" ".Rhistory")
-
- ("/home/vriffel/Git/" (24161 5754 102211 826000) "emacs/" "./" "DSBD/" "random-variables/" "ce071/" "../" "ce086/" "estudos/" "LEA/" "Ryt/" "ytR/" "IC/" "ClickMetrics/")
 
  ("/home/vriffel/Git/DSBD/exames_estbas/questoes/cap1/" (24159 38067 769510 893000) "Prova1.3.xml" "questao2.Rmd" "questao3.Rmd" "questao9.Rmd" "Prova1.1.xml" "questao4.Rmd" "./" "questao12.Rmd" "questao15.Rmd" "../" "questoes_cap1.Rmd" "questao10.Rmd" "gera.Rmd" "Prova1.2.xml" "questao1.Rmd" "questao11.Rmd" "copy.Rmd" "questao6.Rmd" "Prova1.4.xml" ".Rhistory" "questao8.Rmd" "questao13.Rmd" "questao5.Rmd" "Prova1.5.xml" "questao7.Rmd" "questao14.Rmd")
 
