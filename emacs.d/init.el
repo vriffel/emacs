@@ -53,7 +53,7 @@
 
 ;; (set-default-font "Noto Sans Mono")
 ;; (set-default-font "Inconsolata")
-;; (set-default-font "Ubuntu Mono-14")
+;; (set-frame-font "Ubuntu Mono-14")
 (set-frame-font "Inconsolata 12" nil t)
 
 
@@ -304,6 +304,20 @@ There are two things you can do about this warning:
 ;;     (sp-pair "'" nil :unless '(sp-point-after-word-p))
 ;;     )
 ;;   )
+
+(use-package smartparens
+  :diminish smartparens-mode
+  :config
+  (progn
+    (require 'smartparens-config)
+    (smartparens-global-mode 1)
+    (sp-pair "\"" nil :unless '(sp-point-after-word-p))
+    (sp-pair "'" nil :unless '(sp-point-after-word-p))
+    (sp-local-pair '(ess-mode) "(" nil :unless '(sp-point-before-word-p))
+    (sp-local-pair '(ess-mode) "[" nil :unless '(sp-point-before-word-p))
+    (sp-local-pair '(ess-mode) "{" nil :unless '(sp-point-before-word-p))
+    )
+  )
 
 
 
