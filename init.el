@@ -9,7 +9,7 @@
 ;; project of this file.
 ;;======================================================================
 
-;; Load Fernando Mayer's functions (see https://github.com/fernadomayer)
+;; Load Fernando Mayer's functions (see https://github.com/fernandomayer)
 (load "~/.emacs.d/lisp/funcs.el")
 
 (setq byte-compile-warnings '(cl-functions))
